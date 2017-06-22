@@ -55,8 +55,6 @@ header p {
 	letter-spacing: 1px;
 }
 
-/* END OF JUMBOTRON SECTION */
-
 /* FIRST SECTION + SECOND SECTION */
 
 img {
@@ -64,8 +62,6 @@ img {
 }
 
 .projects, .company_culture, .second_section {
-	display: flex;
-	align-items: flex-start;
 	margin: 50px 100px;
 }
 
@@ -78,13 +74,15 @@ img {
 	font-size: 247px;
 	line-height: 247px;
 	position: absolute;
-	top: -25px;
-	left: -35px;
 	z-index: -1;
-	color: #cd46cf;
+	color: rgba(205, 70, 207, 0.8);
 	letter-spacing: 20px;
+	top: -25px;
 }
 
+.company_culture span {
+	color: rgba(255, 141, 160, .8);
+}
 
 .first_section h2,
 .second_section h2 {
@@ -92,12 +90,14 @@ img {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	letter-spacing: 2px;
+	margin: 0 50px;
+	padding: 0 60px;
 }
 
 .first_section p,
 .second_section p {
 	font-size: 12px;
-	margin: 12px 0;
+	padding: 20px 110px;
 }
 
 button {
@@ -108,8 +108,10 @@ button {
 	color: #5c1d92;
     border: 2px solid #cf469c;
     padding: 12.5px 25px;
-
+    margin: 0 110px;
 }
+
+/* ideas section */
 
 .ideas_slogan {
 	background-image: url("../images/fullbg.jpg");
